@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtLabelInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        android:text="@string/tv_msg"
+        android:textSize="25sp" />
+    <!--inputType:値を指定-->
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="345dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="25dp"
+        android:background="#ffffff"
+        android:inputType="text"
+        android:maxLength="20" />
+
+    <LinearLayout
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/widget_edittext_dark"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chkDrink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:background="#ffffff"
+            android:text="@string/chkDrink" />
+
+        <CheckBox
+            android:id="@+id/chkFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="@string/chkFood" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorAccent"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <RadioButton
+            android:id="@+id/rdoMan"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:background="#ffffff"
+            android:checked="true"
+            android:text="@string/man" />
+
+        <RadioButton
+            android:id="@+id/rdoWoman"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="@string/woman" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spCurryList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+
+    <LinearLayout
+        android:id="@+id/multiLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cnt"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cnt"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/rst"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp" />
+
+        <ListView
+            android:id="@+id/muList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/background_light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_Multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/btn_Multi"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_Clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:text="@string/clear"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:text="@string/btn_Next"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

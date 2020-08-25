@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">画面部品サンプル</string>
+    <string name="title">画面遷移サンプル</string>
+    <string name="tv_msg">お名前を入力してください。</string>
+    <string name="btn_Multi">複数</string>
+    <string name="btn_Next">次へ</string>
+    <string name="btn_return">リストに戻る</string>
+    <string name="chkDrink">ドリンク</string>
+    <string name="chkFood">フード</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="cnt">件数</string>
+    <string name="clear">クリア</string>
+    <string name="dialog_title">注文確認</string>
+    <string name="dialog_msg">選択された定食を注文します。よろしいですか？</string>
+    <string name="dialog_btn_ok">注文</string>
+    <string name="dialog_btn_ng">キャンセル</string>
+    <string name="dialog_btn_nu">問い合わせ</string>
+    <string name="toast_ok">以下のメニューのご注文を受け付けました。\nご注文がありがとうございます。</string>
+    <string name="toast_ng">注文をキャンセルしました。</string>
+    <string name="toast_nu">問い合わせをします。</string>
+    <string name="txtRst">以下のメニューのご注文を受け付けました。\nご注文がありがとうございます。</string>
+    <string name="txt_OrderTitle">注文完了</string>
+
+</resources>
