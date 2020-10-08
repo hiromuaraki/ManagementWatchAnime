@@ -25,7 +25,6 @@ public class IntentActivity extends AppCompatActivity {
         txtMenu.setText("ﾘｽﾄ:" + item.replace("'",""));
         txtMenu.setFocusable(false);
         setListener();
-
     }
 
     private void findViewId() {
